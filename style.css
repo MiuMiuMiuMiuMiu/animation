@@ -1,0 +1,44 @@
+h1 {
+    padding: 50px;
+    text-align: center;
+}
+
+.pop-container {
+    text-align: center;
+}
+
+.text-container {
+    font-size: 5em;
+}
+
+.pop-animation {
+    animation: pop-animation 3.5s linear infinite;
+}
+
+.word-1 {
+    --color-1: #17494D;
+    --color-2: #ACCFCB;
+    --color-3: #ACCFCB;
+}
+
+.word-2 {
+    --color-1: #ACCFCB;
+    --color-2: #17494D;
+    --color-3: #ACCFCB;
+}
+
+.word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+}
+
+@keyframes pop-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+}
