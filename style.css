@@ -15,6 +15,7 @@ h1 {
     animation: pop-animation 3.5s linear infinite;
 }
 
+
 .word-1 {
     --color-1: #17494D;
     --color-2: #ACCFCB;
@@ -32,6 +33,27 @@ h1 {
     --color-2: #ACCFCB;
     --color-3: #17494D;
 }
+
+
+/*
+.word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  .word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #DF8453;
+  }*/
+
 
 @keyframes pop-animation {
     0%    {color: var(--color-1)}
