@@ -1,2 +1,2 @@
 # animation
-Animations made via css
+Animations made via css / javascript
