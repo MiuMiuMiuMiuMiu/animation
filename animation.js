@@ -1,4 +1,5 @@
 let box = document.querySelector(".animation-box");
+let boxes = document.getElementsByClassName("animation-box");
 let position = box.getBoundingClientRect().left;
 
 let width = window.innerWidth;

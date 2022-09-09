@@ -89,13 +89,10 @@ h1 {
     to {transform: rotate(360deg);}
 }
 
-/*LOOP*/
+/*LOOP JS*/
 
 .loop-container {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     overflow: hidden;
 }
 
@@ -104,4 +101,31 @@ h1 {
     height: 50px;
     background-color: red;
     position: relative;
+}
+
+/*LOOP CSS*/
+
+.text-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.animation-text {
+    display: flex;
+    animation: animation-text 20s linear infinite;
+}
+
+.animation-text > img{
+    padding: 0px 10px;
+}
+
+@keyframes animation-text {
+    0% {
+        transform: translateX(0px) translateZ(0px);
+    }
+    100% {
+        transform: translateX(-100%) translateZ(0px);
+    }
 }
