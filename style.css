@@ -64,3 +64,21 @@ h1 {
     99%   {color: var(--color-3)}
     100%  {color: var(--color-1)}
 }
+
+/*SPINNING LOGO*/
+
+.logo-container {
+    width: 20%;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.spin-animation {
+    animation: spin-animation 15s linear infinite;
+}
+
+@keyframes spin-animation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
