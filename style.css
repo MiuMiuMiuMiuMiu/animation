@@ -116,7 +116,7 @@ h1 {
     }
 }
 
-/*BUTTON*/
+/*BUTTONS*/
 
 .button-container {
     display: flex;
@@ -131,24 +131,50 @@ h1 {
     justify-content: center;
     width: 100px;
     height: 50px;
-    border-radius: 5%;
-    background-color: cadetblue;
-    transition: 0.5s;
+    border-radius: 5%;  
 }
 
 .button a {
     text-decoration: none;
+}
+
+    /*Button 1*/
+
+.button-1 {
+    background-color: cadetblue;
+    transition: 0.5s;
+}
+
+.button-1 a {
     color: black;
     transition: 0.3s;
 }
 
-.button:hover {
+.button-1:hover {
     background-color: mediumpurple;
 }
 
-.button:hover a {
+.button-1:hover a {
     color: white;
 }
+
+    /*Button 2*/
+
+.button-2 {
+    border-style: solid;
+    background-color:coral;
+    transition: 0.5s;
+}
+
+.button-2 a {
+    color: black;
+    transition: 0.3s;
+}
+
+.button-2:hover {
+    background-color: white;
+}
+
 
 /*FADE IN*/
 
