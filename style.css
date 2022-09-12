@@ -89,29 +89,62 @@ h1 {
     to {transform: rotate(360deg);}
 }
 
-/*LOOP CSS*/
+/*LOOP*/
 
-.text-container {
+.loop-container {
     width: 100%;
     overflow: hidden;
     display: flex;
     padding-bottom: 100px;
 }
 
-.animation-text {
+.animation-loop {
     display: flex;
-    animation: animation-text 20s linear infinite;
+    animation: animation-loop 20s linear infinite;
 }
 
-.animation-text > img{
+.animation-loop img{
     padding: 0px 10px;
 }
 
-@keyframes animation-text {
+@keyframes animation-loop {
     0% {
         transform: translateX(0px) translateZ(0px);
     }
     100% {
         transform: translateX(-100%) translateZ(0px);
     }
+}
+
+/*BUTTON*/
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 5%;
+    background-color: cadetblue;
+    transition: 0.5s;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: mediumpurple;
+}
+
+.button:hover a {
+    color: white;
 }
