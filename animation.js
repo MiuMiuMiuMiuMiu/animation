@@ -4,9 +4,7 @@ const observer = new IntersectionObserver(containers => {
     containers.forEach(container => {
         if(container.isIntersecting){
             container.target.classList.toggle("show");
-        }
-        else {
-            container.target.classList.remove("show");
+            observer.unobserve(container.target);
         }
     });
 });
