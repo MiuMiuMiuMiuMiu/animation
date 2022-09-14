@@ -234,3 +234,23 @@ h1 {
 .disappear:hover {
     opacity: 0;
 }
+
+.disappear-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.placeholder {
+    height: 50px;
+    width: 50px;
+    background-color: rebeccapurple;
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity .2s;
+}
+
+.placeholder:hover {
+    opacity: 0;
+}
