@@ -235,6 +235,8 @@ h1 {
     opacity: 0;
 }
 
+    /*Variant 1*/
+
 .disappear-item {
     display: flex;
     flex-direction: row;
