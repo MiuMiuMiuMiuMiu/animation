@@ -213,3 +213,24 @@ h1 {
     height: 190px;
     font-size: 1.3em;
 }
+
+/*DISAPPEAR*/
+
+.disappear-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.disappear {
+    height: 50px;
+    width: 50px;
+    background-color: royalblue;
+    opacity: 1;
+    transition: opacity .5s;
+}
+
+.disappear:hover {
+    opacity: 0;
+}
