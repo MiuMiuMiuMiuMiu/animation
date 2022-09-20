@@ -101,6 +101,10 @@ h1 {
     animation: animation-loop 20s linear infinite;
 }
 
+.loop-word {
+    padding-left: 128px;
+}
+
 .animation-loop img{
     padding: 0px 10px;
 }
