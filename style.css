@@ -93,16 +93,19 @@ h1 {
     width: 100%;
     overflow: hidden;
     display: flex;
+    flex-wrap: nowrap;
     padding-bottom: 100px;
 }
 
 .animation-loop {
     display: flex;
+    flex-wrap: nowrap;
     animation: animation-loop 20s linear infinite;
 }
 
 .loop-word {
     padding-left: 128px;
+    white-space: nowrap;
 }
 
 .animation-img{
